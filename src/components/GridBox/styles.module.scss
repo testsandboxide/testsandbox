@@ -1,0 +1,24 @@
+.gridBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 4px;
+    text-align: center;
+
+    height: 26rem;
+
+    background: var(--gray-850);
+
+    img {
+        width: 64px;
+    }
+
+    h2 {
+        color: var(--white) !important;
+    }
+
+    span {
+        color: var(--gray-100);
+    }
+}

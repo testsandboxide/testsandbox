@@ -1,0 +1,13 @@
+.sidebar {
+    position: absolute;
+    width: 250px;
+    height: calc(100vh - 3rem);
+    z-index: 3;
+    left: 0;
+
+    padding-top: 23px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}

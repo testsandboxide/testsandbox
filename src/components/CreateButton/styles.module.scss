@@ -1,0 +1,15 @@
+.createButton {
+    border: none;
+    background: var(--yellow-100);
+    border-radius: 4px;
+    padding: 8px;
+
+    color: var(--gray-650);
+    font-size: 0.75rem;
+    font-weight: 500;
+
+    &:hover {
+        filter: brightness(0.7);
+        transition: filter 0.2s;
+    }
+}

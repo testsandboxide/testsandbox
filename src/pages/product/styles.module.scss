@@ -1,0 +1,122 @@
+.contentContainer {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding:0 2rem;
+    height: calc(100vh - 3rem);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: normal;
+        margin: 2rem 0;
+        color: var(--gray-100);
+    }
+}
+
+.featureContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 1120px;
+    
+    margin: 10rem auto;
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    .gridContainer {
+        margin-top: 4rem;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 38px;
+        padding: 0 0 10rem;
+
+        justify-content: center;
+    }
+
+    .layout {
+        margin-top: 4rem;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .featuredImage {
+            max-width: 1120px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .featuredContent {
+            display: grid;
+            grid-template-columns: repeat(3, 4fr);
+
+            max-width: 1120px;
+            width: 100%;
+
+            gap: 4rem;
+            margin-top: 2rem;
+
+            h2 {
+                margin: 0 0 1.0875rem;
+                font-weight: 700;
+                font-size: 1.35824rem;
+            }
+
+            span {
+                color: var(--gray-100);
+            }
+        }
+    }
+}
+
+.exploreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 1120px;
+    
+    margin: 10rem auto;
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: normal;
+        margin: 2rem 0;
+        color: var(--gray-100);
+    }
+}

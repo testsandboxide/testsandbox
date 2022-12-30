@@ -1,0 +1,44 @@
+.gridPanelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .gridBox {
+        padding: 4rem;
+        border-radius: 4px;
+        text-align: center;
+
+        width: 100%;
+    
+        background: var(--gray-850);
+    
+        img {
+            width: 64px;
+            height: 64px;
+        }
+
+        &.active {
+            background: var(--blue-600) !important;
+        }
+    }
+
+    .layoutComponent {
+        display: flex;
+        flex-direction: column;
+
+        max-width: 1120px;
+        width: 100%;
+
+        margin-top: 2rem;
+
+        h2 {
+            margin: 0 0 1.0875rem;
+            font-weight: 700;
+            font-size: 1.35824rem;
+        }
+
+        span {
+            color: var(--gray-100);
+        }
+    }
+}

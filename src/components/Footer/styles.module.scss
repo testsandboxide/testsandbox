@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    border-top: 1px solid var(--gray-500);
+}
+
+.gridLinks {
+    padding-top: 4rem;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+
+    gap: 6rem;
+
+    margin: 0 2rem;
+
+    .group {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-weight: 800;
+            font-size: 1.188rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            width: max-content;
+            color: var(--gray-100);
+
+            & + a {
+                padding-top: 8px;
+            }
+
+            &:hover {
+                color: var(--white);
+            }
+        }
+    }
+}
+
+.social {
+    margin-top: 8rem;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    a {
+        font-size: 1.8rem;
+
+        &:hover {
+            filter: brightness(3);
+            transition: filter 0.2s;
+        }
+    }
+}
+
+.signature {
+    line-height: 160%;
+    margin: 0 0 2rem;
+    font-size: 1rem;
+    color: var(--gray-100);
+}

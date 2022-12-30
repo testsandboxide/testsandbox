@@ -1,0 +1,22 @@
+.genericButton {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border: none;
+    background: var(--yellow-100);
+    border-radius: 4px;
+    padding: 8px;
+
+    color: var(--gray-650);
+    font-size: 1rem;
+    font-weight: 500;
+
+    &:hover {
+        filter: brightness(0.7);
+        transition: filter 0.2s;
+    }
+}
